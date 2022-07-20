@@ -1,10 +1,6 @@
 {
-	"name": "sakai-vue",
+	"name": "project-flotta",
 	"version": "3.4.2-SNAPSHOT",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/primefaces/sakai-vue.git"
-	},
 	"license": "MIT",
 	"scripts": {
 		"serve": "vue-cli-service serve",
