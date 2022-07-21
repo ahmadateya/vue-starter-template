@@ -12,4 +12,4 @@ docker-build:
 
 # Run the docker image
 docker-run:
-	$(DOCKER) run -p $(DOCKER_CONTAINER_PORT):3000 -t $(DOCKER_IMAGE):$(DOCKER_TAG)
+	$(DOCKER) run -p $(DOCKER_CONTAINER_PORT):8080 -v $(shell pwd):/app -t $(DOCKER_IMAGE):$(DOCKER_TAG)
